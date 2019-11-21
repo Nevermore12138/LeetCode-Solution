@@ -26,7 +26,6 @@ public:
                 nodeStack.push(tempNode->right);
             if(tempNode->left)
                 nodeStack.push(tempNode->left);
-            
         }
         return result;
     }
